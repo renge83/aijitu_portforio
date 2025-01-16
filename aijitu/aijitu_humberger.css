@@ -1,0 +1,148 @@
+.overlay{
+	background-color: #ffffff;
+	position: fixed;
+	top: 0px;
+    right: 0;
+	width: 300px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transform: translate(100%);
+	transition: all 0.3s;
+	z-index: 99;
+}
+
+.overlay.show{
+	opacity: 1;
+	transform: none;
+}
+
+.nav__container{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+}
+
+img.nav__contact{
+	width: 60px;
+	height: auto;
+	transition: 0.5s;
+}
+
+img.nav__contact:hover{
+	transform: translateY(-8px);
+}
+
+.nav__btn li {
+    list-style: none;
+  }
+
+  .nav__btn li a {
+    color: #000000;
+    font-size: 25px;
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .nav__btn li a:hover{
+      transform: translateY(-8px);
+  }
+
+  .nav__contact{
+    position: absolute;
+    top:800px;
+    right: 20px;
+  }
+
+.menu_btn__content{
+	width: 50px;
+	height: 48px;
+	position: fixed;
+	top: 23px;
+	right: 15px;
+	cursor: pointer;
+	z-index: 999;
+    opacity: 1;
+	transition: 0.3s;
+}
+
+#menu_btn__content.is-show{
+	opacity: 0;
+	transition: 0.1s;
+    pointer-events: none;
+}
+
+.menu_btn{
+	position: fixed;
+	top: 45px;
+	right: 20px;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.menu_line{
+	background-color: black;
+	display:block;
+	height: 2px;
+	width: 25px;
+	position:relative;
+	transition: all 0.3s;
+}
+
+/*.menu_line::before,
+.menu_line::after{
+	content: "";
+	display: block;
+    height: 2px;
+	width: 30px;
+	position: absolute;
+	transition: all 0.3s;
+}*/
+
+.menu_line::before{
+    content: "";
+	display: block;
+    height: 2px;
+	width: 35px;
+	position: absolute;
+	transition: all 0.3s;
+	background-color: black;
+	top: -13px;
+    right: 0px;
+}
+
+.menu_line::after{
+    content: "";
+	display: block;
+    height: 2px;
+	width: 35px;
+	position: absolute;
+	transition: all 0.3s;
+	background-color:black;
+	top: 13px;
+    right: 0px;
+}
+
+.menu_line.active::before{
+	transform: rotate(45deg);
+	top:0;
+	background-color: #000000;
+}
+
+.menu_line.active::after{
+	transform: rotate(-45deg);
+	top:0;
+	background-color: #000000;
+}
+
+.menu_line.active{
+	background: transparent;
+}

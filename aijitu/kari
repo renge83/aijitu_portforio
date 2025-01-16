@@ -1,0 +1,14 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // 固定ヘッダー要素を取得
+    const fixed = document.getElementById("menu_btn__content");
+    // ウィンドウのスクロールイベントを監視
+    window.addEventListener("scroll", function() {
+      // スクロール位置が200pxを超えたら
+      if (window.scrollY < 850) {
+        // 固定ヘッダーにis-showクラスを追加して表示
+        fixed.classList.add("is-show");
+      } else {
+        // スクロール位置が200px以下ならis-showクラスを削除して非表示
+        fixed.classList.remove("is-show");
+      }
+    });
