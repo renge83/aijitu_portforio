@@ -1,0 +1,425 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+header p{
+    font-size: 20px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:20px;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:20px;
+    text-align: center;
+    margin: 110px 0 90px 0;
+}
+
+.about_container{
+    width: 1480px;
+    margin: 0px auto;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.about_item{
+    display: flex;
+}
+
+img.myicon{
+    width: 300px;
+    height: auto;
+    margin: auto 100px;
+}
+
+.about_item p{
+    width: 790px;
+    font-size: 18px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:5px; 
+    line-height: 1.5;
+    margin: auto 0;
+}
+
+.can__container1{
+    display: flex;
+    width: 1480px;
+    height: 400px;
+    margin: 0px auto;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.can__container2{
+    display: flex;
+    width: 1480px;
+    height: 400px;
+    margin: 0px auto;
+    border-bottom: 2px solid #000000;
+}
+
+.can__item1{
+display: flex;
+width: 739px;
+height: 350px;
+border-right: 2px solid #000000;
+margin: auto;
+}
+
+.can__item2{
+    display: flex;
+    width: 739px;
+    height: 350px;
+    margin: auto;
+}
+
+.can__element{
+    width: 420px;
+    height: 280px;
+    margin: auto 0;
+}
+
+.can__element p{
+    height: 130px;
+    font-size: 18px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:5px; 
+    margin: 0%;
+}
+
+.can__element ul{
+    padding-left: 0%;
+    margin:0;
+}
+
+.can__element li{
+    display: inline-block;
+    background-color: #333333;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:2px;
+    padding: 8px 15px;
+}
+
+h4{
+    font-size: 23px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:10px;
+    margin: 30px 0px 20px 0px;
+}
+
+img.design__icon{
+    width: 150px;
+    height: auto;
+    margin: 0 70px;
+}
+
+img.coding__icon{
+    width: 150px;
+    height: auto;
+    margin: 0 70px;
+}
+
+img.movie__icon{
+    width: 150px;
+    height: auto;
+    margin: 0 70px;
+}
+
+img.illust__icon{
+    width: 150px;
+    height: auto;
+    margin: 0 70px;
+}
+
+.strength__container {
+    display: flex;
+    width: 1480px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+.strength__container ol{
+    display: flex;
+    padding-left: 0%;
+    margin: 0;
+}
+
+.strength__container li{
+    height: 100px;
+    font-size: 23px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:10px;
+    list-style: none;
+}
+
+.strength__container p{
+    height: 130px;
+    font-size: 18px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:5px; 
+    line-height: 1.5;
+    margin: 0%;
+}
+
+.strength__item1{
+    width: 492px;
+    height: 500px;
+    border-right: 2px solid #000000;
+    margin: auto;
+}
+
+.strength__item2{
+    width: 492px;
+    height: 500px;
+    margin: auto;
+}
+
+.strength__element{
+    width: 430px;
+    height: 350px;
+    margin: 75px auto;
+}
+
+@media(max-width:767px){
+
+    header p{
+        font-size: 13px;
+        font-family: "kiwi-maru", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing:7px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    h1{
+        font-size: 18px;
+        font-family: "kiwi-maru", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing:10px;
+        text-align: center;
+        margin: 110px 0 40px 0;
+    }
+
+    .about_container{
+        width: 90%;
+        margin: 0px auto;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+    }
+
+    .about_item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    img.myicon{
+        width: 50%;
+        height: auto;
+        margin: 10px auto 0px auto;
+    }
+    
+    .about_item p{
+        width: 80%;
+        font-size: 15px;
+        font-family: "kiwi-maru", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing:5px; 
+        line-height: 1.5;
+        text-indent: 1.4em;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-bottom: 40px;
+        margin-right: auto;
+    }
+
+
+.can__container1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.can__container2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    border-bottom: 2px solid #000000;
+}
+
+.can__item1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 450px;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #000000;
+    margin: auto;
+}
+
+.can__item2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 480px;
+    margin: auto;
+}
+
+.can__element{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.can__element p{
+    height: auto;
+    font-size: 15px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:5px; 
+    margin: 20px auto;
+}
+
+.can__element ul{
+    padding-left: 0%;
+    margin: auto;
+}
+
+.can__element li{
+    display: inline-block;
+    background-color: #333333;
+    border-radius: 30px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:2px;
+    padding: 8px 13px;
+    margin-bottom: 5px;
+}
+
+h4{
+    font-size: 18px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:10px;
+    text-align: center;
+    margin: 0;
+}
+
+img.design__icon{
+    width: 30%;
+    height: auto;
+    margin: 35px auto;
+}
+
+img.coding__icon{
+    width: 30%;
+    height: auto;
+    margin: 35px auto;
+}
+
+img.movie__icon{
+    width: 30%;
+    height: auto;
+    margin: 35px auto;
+}
+
+img.illust__icon{
+    width: 30%;
+    height: auto;
+    margin: 35px auto;
+}
+
+.strength__container {
+   
+    width: 80%;
+    height:auto;
+    margin: auto;
+}
+
+.strength__container ol{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    margin: 0;
+}
+
+.strength__container li{
+    height: auto;
+    font-size: 18px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:7px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.strength__container p{
+    height: auto;
+    font-size: 15px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 90%;
+    font-style: normal;
+    letter-spacing:5px; 
+    line-height: 1.5;
+    text-indent: 1.3em;
+    margin: 0%;
+}
+
+.strength__item1{
+    width: 95%;
+    height: auto;
+    border-right: none;
+    margin: auto;
+}
+
+.strength__item2{
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+.strength__element{
+    width: 95%;
+    height: auto;
+    margin: 30px auto;
+}
+
+
+}

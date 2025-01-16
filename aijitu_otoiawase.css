@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+.otoiawase_p{
+    width: 100%;
+    margin-top:0px auto;
+    text-align: center;
+    
+
+    font-size: 15px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:6px;
+}
