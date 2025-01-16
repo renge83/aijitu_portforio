@@ -1,0 +1,500 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+
+@media(min-width:768px){
+
+    .top__container{
+        position: relative;
+        margin: 0;
+    }
+    
+    img.mainV{
+        max-width: 1760px;
+        height: auto;
+        object-fit: cover;
+        object-position: 50% 50%;
+        overflow: hidden;
+    }
+
+    img.mainV_375px{
+        display: none;
+    }
+
+    .sabotenn{
+        position: absolute;
+        width: 36%;
+        top:3%;
+       left: 34%;
+    
+    }
+    
+    img.mainV_sabotenn{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.aijitu__logo{
+    position: absolute;
+    top: 38%;
+    left: 18%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+img.aijitu__logo{
+    width: 20%;
+    height: auto;
+}
+
+.topnav__container{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+}
+
+.topnav__btn li {
+    list-style: none;
+  }
+
+  .topnav__btn li a {
+    color: #000000;
+    font-size: 25px;
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .topnav__btn li a:hover{
+      transform: translateY(-8px);
+  }
+
+  .contact{
+    position: absolute;
+    top:810px;
+    right: 2%;
+  }
+
+img.contact{
+	width: 60px;
+	height: auto;
+	transition: 0.5s;
+}
+
+img.contact:hover{
+	transform: translateY(-8px);
+}
+
+  .top__p{
+    position: absolute;
+    top: 840px;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    
+    font-size: 20px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:20px;
+    
+}
+
+.topnav__btn li a:hover{
+    transform: translateY(-8px);
+}
+
+.aijitu_container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.aijitu__logo2{
+    text-align: center;
+    margin: 50px auto;
+    padding:0;    
+}
+
+img.aijitu__logo2{
+    width: 200px; 
+}
+
+.aijitu__p{
+    width: 100%;
+    margin-top:0px auto auto auto;
+    padding:0;
+
+    font-size: 18px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:6px;
+    text-indent: 1.4em;
+}
+
+h3{
+    color: #000000;
+    font-size: 40px;
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h5{
+    font-size: 20px;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:5px;
+    margin: 0%;
+}
+
+.web__container{
+    margin-top: 200px;
+}
+
+.works__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	flex-wrap: wrap;
+	width: 1480px;
+    height: 530px;
+	margin-left: auto;
+	margin-right: auto;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.works__container p{
+    display: inline-block;
+    background-color: #333333;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:2px;
+    padding: 8px 15px;
+}
+
+.works__container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	flex-wrap: wrap;
+	width: 1480px;
+    height: 530px;
+	margin-left: auto;
+	margin-right: auto;
+    border-bottom: 2px solid #000000;
+}
+
+.works__container2 p{
+    display: inline-block;
+    background-color: #333333;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "kiwi-maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:2px;
+    padding: 8px 15px;
+}
+
+.works__item1{
+    background-color: #FFEFEF;
+    width: 739px;
+    height: 450px;
+    text-align: center;
+    border-right: 2px solid #000000;
+}
+
+.works__item2{
+    background-color:#FFEFEF;
+    width: 739px;
+    height: 450px;
+    text-align: center;
+}
+
+img.works{
+    height: 300px;
+    margin: 25px auto 15px auto;
+    box-shadow: #333333;
+}
+
+.footer{
+	display: flex;
+	color: #000000;
+	justify-content: center;
+    font-family: "all-round-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+@media(max-width:767px){
+
+    .top__container{
+        position: relative;
+    }
+
+    img.mainV{
+        display: none;
+    }
+
+    img.mainV_375px{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: 50% 50%;
+        overflow: hidden;
+    }
+
+    .sabotenn{
+        display: none;
+    
+    }
+    
+    img.mainV_sabotenn{
+        display: none;
+    }
+
+
+    .aijitu__logo{
+        position: absolute;
+        top: 13%;
+        left: 20%;
+        -ms-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        margin:0;
+        padding:0;
+    }
+
+    img.aijitu__logo{
+        width: 35%;
+        height: auto;
+    }
+
+    .topnav__container{
+        display: none;
+    }
+    
+    .topnav__btn li {
+        display: none;
+      }
+    
+      .topnav__btn li a {
+        display: none;
+      }
+      
+      .topnav__btn li a:hover{
+        display: none;
+      }
+
+
+    .top__p{
+        position: absolute;
+        top: 91%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        margin:0;
+        padding:0;
+        
+        font-size: 13px;
+        font-family: "kiwi-maru", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing:12px;}
+
+        .contact{
+            position: absolute;
+            top: 89%;
+            right: 2%;
+          }
+        
+        img.contact{
+            width: 50px;
+            height: auto;
+            transition: 0.5s;
+        }
+        
+        img.contact:hover{
+            transform: translateY(-8px);
+        }
+
+        .aijitu_container{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            margin: 0px auto;
+        }
+     
+        img.aijitu__logo2{
+            width: 40%; 
+        }
+    
+        .aijitu__p{
+            width: 100%;
+            margin:0 auto;
+            padding:0;
+            font-size: 13px;
+            font-family: "kiwi-maru", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing:5px;
+        }
+
+        h3{
+            color: #000000;
+            font-size: 30px;
+            font-family: "all-round-gothic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: 4px;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 50px;
+        }
+        
+        h5{
+            width: 90%;
+            font-size: 15px;
+            font-family: "kiwi-maru", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing:3px;
+            margin: auto;
+        }
+
+        .rink a{
+            list-style: none;
+
+        }
+
+        .web__container{
+            margin-top: 50px;
+        }
+        
+        .works__container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 85%;
+            height:auto;
+            margin-left: auto;
+            margin-right: auto;
+            border-top: 2px solid #000000;
+            border-bottom: 2px solid #000000;
+        }
+        
+        .works__container p{
+            display: inline-block;
+            background-color: #333333;
+            border-radius: 30px;
+            font-size: 15px;
+            color: #ffffff;
+            font-family: "kiwi-maru", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing:2px;
+            padding: 8px 15px;
+        }
+        
+        .works__container2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 85%;
+            height:auto;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom: 2px solid #000000;
+        }
+        
+        .works__container2 p{
+            display: inline-block;
+            background-color: #333333;
+            border-radius: 30px;
+            font-size: 15px;
+            color: #ffffff;
+            font-family: "kiwi-maru", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing:2px;
+            padding: 8px 15px;
+        }
+        
+        .works__item1{
+            background-color: #FFEFEF;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            border-right:none;
+            border-bottom: 2px solid #000000;
+        }
+        
+        .works__item2{
+            background-color:#FFEFEF;
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        
+        img.works{
+            width: 90%;
+            height: auto;
+            box-shadow: #333333;
+        }
+        
+        .footer{
+            display: flex;
+            color: #000000;
+            justify-content: center;
+            font-size: 12px;
+            font-family: "all-round-gothic", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: 3px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+
+    }
